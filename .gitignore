@@ -38,6 +38,7 @@ jspm_packages/
 
 # TypeScript v1 declaration files
 typings/
+tsconfig.tsbuildinfo
 
 # Optional npm cache directory
 .npm
@@ -54,6 +55,9 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+# Yarn clean (not recommended in CI)
+.yarnclean
+
 # dotenv environment variables file
 .env
 
@@ -62,8 +66,8 @@ typings/
 dist
 
 # Editor directories and files
+# .vscode
 .idea
-.vscode
 *.suo
 *.ntvs*
 *.njsproj
