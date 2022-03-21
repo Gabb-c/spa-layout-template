@@ -14,7 +14,8 @@
     "plugin:promise/recommended",
     "plugin:eslint-comments/recommended",
     "plugin:unicorn/recommended",
-    "plugin:import/recommended"
+    "plugin:import/recommended",
+    "plugin:storybook/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -32,7 +33,8 @@
     "eslint-comments",
     "promise",
     "unicorn",
-    "import"
+    "import",
+    "storybook"
   ],
   "rules": {
     "prettier/prettier": "error",
